@@ -116,3 +116,5 @@ function callApiMacedonia() {
             console.log(brojac);
         });
 };
+
+console.log("Hello World");
