@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countrypedia</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div style="width: 100%; background-color: rgb(210, 220, 238);">
+        <p style="margin-bottom: 5px; margin-left: 10%; padding-top: 3%; color: rgb(40, 74, 248); font-size: x-large;"> Countrypedia</p>
+        <a style="margin-bottom: 5px; margin-left: 10%;">This is a simple app for gathering information about countries in the World</a>
+        <br>
+        <br>
+        <button style="margin-left: 10%;" class="btn" id="countiesTalkingEnglish">Counties talking English</button>
+        <button class="btn" id="countiesUsingEUR">Counties using EUR</button>
+        <button class="btn" id="Macedonia">Macedonia</button>
+        <br> <br>
+    </div>
+    <div style="width: 100%; background-color: white;">
+        <br>
+        <input style="margin-left: 10%; width: 50%;" type="text" name="countryName" id="countryName" placeholder="Enter country name or code">
+        <button class="btn" style="width: 100" id="inputBtn"> Search </button>
+        <button class="btn" style="width: 100; background-color: dimgray;" id="resetBtn"> Reset </button>
+        <br>
+      </div>
+    <div class="loading" id="loading">
+        <img  src="loading-gif.webp" alt="">
+    </div>
+
+    <table id="tabela" cellpadding="5px"> </table>
+    <script src="script.js"></script>
+</body>
+</html>

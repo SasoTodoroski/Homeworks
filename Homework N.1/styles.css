@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.loading {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background-color: rgb(40, 74, 248);
+    color: white;
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px;
+}
