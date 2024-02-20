@@ -1,0 +1,9 @@
+.bg-MyColor {
+    background-color: rgb(255, 0, 0);
+}
+
+#errorAll {
+    color: red;
+    font-size: 16px;
+}
+
